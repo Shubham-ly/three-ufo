@@ -26,7 +26,7 @@ scene.add(secondLight);
 const loader = new GLTFLoader();
 let ufo: null | Group = null;
 loader.load(
-  "src/ufo.glb",
+  "/ufo.glb",
   (gltf) => {
     ufo = gltf.scene;
     ufo.scale.set(0.1, 0.1, 0.1);
